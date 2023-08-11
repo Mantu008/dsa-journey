@@ -24,7 +24,7 @@ class stack{
       }
 
       void pop(){
-         if(top>=0){
+         if(top>=0 && top<size){
           top--;
           System.out.println("element is pop sucessufully");
          }else{
