@@ -79,6 +79,9 @@ void infix_to_postfix(const char* infix, char* postfix) {
 }
 
 int main() {
+
+    printf("Name:Mantu Kumar Morya\n");
+    printf("Enr:92201703001\n");
     char infix[MAX] = {'(', 'A', '+', 'B', ')', '*','(' ,'C', '*', 'D', '-', 'E', ')', '*', 'F', '/', 'G'};
     char postfix[MAX];
 

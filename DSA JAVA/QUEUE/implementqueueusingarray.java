@@ -53,11 +53,6 @@ public class implementqueueusingarray {
 
         int n=5;
         int arr[]=new int[n];
-      
-
-
-    
-
 
         push(3, arr,n);
         push(2, arr,n);

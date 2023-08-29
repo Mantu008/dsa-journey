@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class linkedlisttostackadepter {
 
@@ -18,14 +19,14 @@ public class linkedlisttostackadepter {
        }else{
           temp.next=head;
        }
-   head=temp;
+    head=temp;
     size++;
    }
 
 
-   static void  pop(){                            //pop is remove function...
+   static void  pop(){                            //pop is removefirst function...
     if( size==0){
-        System.out.println("stack uynderflow.."); 
+        System.out.println("stack underflow.."); 
     }else{
         head=head.next;
         size--;
@@ -55,22 +56,54 @@ public class linkedlisttostackadepter {
 
     public static void main(String[] args) {
 
-          push(4);
-          push(6);
-          push(45);
 
-          display();
-          
-          pop();
-          display();
-          peek();
-          pop();
-          display();
-          peek();
-          pop();
-          display();
-          peek();
+        Scanner sc=new Scanner(System.in); 
+         int l=Integer.MAX_VALUE;
+        
+        while(l!=0){
+                 System.out.print("Enter prefrence:");
+                 String prefrence=sc.next();
+                 
+                 switch (prefrence) {
 
+                    case "push":
+                    System.out.print("Enter the value which you want to incert in the stack:"); 
+                    push(sc.nextInt());    
+                    break;
+
+                    case "pop":
+                    pop();    
+                    break;
+
+                    case "peek":
+                    peek();    
+                    break;
+
+                    case "display":
+                    display();    
+                    break;
+
+
+                    case "exit":
+                    System.out.println("Enter value of l:");
+                    l=0;    
+                    break;
+
+                    default:
+                    System.out.println("invalid prefrenc...");
+                    break;
+
+                   
+                   
+            }
+   
+            
+
+
+        }
+
+    
+        
           
 
 
