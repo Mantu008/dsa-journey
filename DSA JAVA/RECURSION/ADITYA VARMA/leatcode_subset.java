@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class subsetusinglist {
+public class leatcode_subset {
 
     public static void solve(List<List<Integer>> resultSets, List<Integer> tempSet,int[] nums, int start){
         resultSets.add(new ArrayList<>(tempSet)); 

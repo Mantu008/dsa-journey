@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "joshaphos_problom",
+            "request": "launch",
+            "mainClass": "joshaphos_problom",
+            "projectName": "dsa_f247bdba"
+        },
+        {
+            "type": "java",
             "name": "intercaction_of_linkedlist",
             "request": "launch",
             "mainClass": "intercaction_of_linkedlist",

@@ -40,9 +40,9 @@ public class target {
           
         // int [] arr={2,4,6,9,11,12,14,20,36,48};
 
-        int [] arr={23,20,19,16,15,12,11,5,2,1};
+        int [] arr={-1,0,3,5,9,12};
 
-        int x=binarysearch(arr, 5);
+        int x=binarysearch(arr, 2);
         if(x<0){
             System.out.println("my target is not present in this given array");
         }else{
