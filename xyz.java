@@ -6,23 +6,28 @@ import java.util.LinkedHashSet;
 public class xyz {
 
     public static void main(String[] args) {
-     ArrayList<Character> l=new ArrayList<>();   
-     String ip="cbacdcbc";
+      String str ="race a car";
+     
+        System.out.println(isPalindrome(str));
 
-     for(int i=0;i<ip.length();i++){
-          if(!l.contains(ip.charAt(i))){
-            l.add(ip.charAt(i)); 
-          }
-     }
-   Collections.sort(l);
-   
-     String op="";
-     for(int i=0;i<l.size();i++){
-        op=op+l.get(i);
-     }
-
-     System.out.println(op);
-    
       
+    }
+
+    public static boolean isPalindrome(String str){
+            str= str.toLowerCase().replaceAll("[^A-Za-z0-9]", "");
+            int i=0;
+            int j=str.length()-1;
+
+            while(i<=j){
+                 if(str.charAt(i)!=str.charAt(j)){
+                      return false;
+                 }
+
+                 i++;
+                 j--;
+            }
+
+
+            return true;
     }
 }

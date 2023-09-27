@@ -38,7 +38,6 @@ public class implementqueueusingarray {
     }
 
     public static void display(int arr[],int n){
-
              for(int i=front;i<rear;i++){
                   System.out.println("arr["+i%n+"]="+arr[i%n]);
              }               

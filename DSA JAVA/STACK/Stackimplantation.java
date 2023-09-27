@@ -1,6 +1,3 @@
-// import java.util.Stack;
-
-
 class stack{
  
     int []arr;
@@ -46,28 +43,19 @@ class stack{
            }
       }
 
+      public  void display(){
+             for(int i=0;i<=top;i++){
+                  System.out.print(arr[i]+" ");
+             }
+      }
+
 }
 
 public class Stackimplantation {
 
     
     public static void main(String[] args) {
-      //   Stack<Integer> s=new Stack<>();
-      //   s.push(1);
-      //   s.push(2);
-      //   s.push(3);
-      //   s.push(3);
-
-      // System.out.println(s);
-
-      // System.out.println("thestack is empty or not:"+s.isEmpty());
-
-      // System.out.println("the stack size is:"+s.size());
-
-      // System.out.println("the element on the top of the given stack is:"+s.peek());
-
-      //  System.out.println(s.pop());
-
+    
       stack s=new stack(5);
 
       s.push(5);
@@ -88,6 +76,12 @@ public class Stackimplantation {
       s.peak();
       s.isEmpty();
       s.pop();
+      
+      s.display();
+
+
+
+      
 
 
   

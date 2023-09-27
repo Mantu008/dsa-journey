@@ -76,6 +76,7 @@ void infix_to_postfix(const char* infix, char* postfix) {
     }
 
     postfix[j] = '\0'; // Null-terminate the postfix expression string.
+    
 }
 
 int main() {
