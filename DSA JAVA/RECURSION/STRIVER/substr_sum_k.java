@@ -3,6 +3,9 @@ import java.util.List;
 
 public class substr_sum_k {
        public static int Printsubn(int idx,int arr[],int n,int sum,int s){
+        if(sum>s){
+             return 0;                     // if sum is grator then return immeditly...
+        }
          if(idx==n){
                if(sum==s){
                     return 1;

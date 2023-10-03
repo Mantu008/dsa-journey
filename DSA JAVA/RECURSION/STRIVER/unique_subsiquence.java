@@ -18,7 +18,7 @@ public class unique_subsiquence {
          return;
     }
     public static void main(String[] args){
-        int arr[]={1 ,2,1};
+        int arr[]={1,2,2,2,3,3};
         Arrays.sort(arr);
         int n=arr.length;
         ArrayList<Integer>list=new ArrayList<>();
@@ -26,7 +26,7 @@ public class unique_subsiquence {
         int idx=0;
         Printsubn(idx,arr,n,list,resultList);
 
-           System.out.println(resultList);
+        System.out.println(resultList);
     }  
 }
 

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "subsetsum_l",
+            "request": "launch",
+            "mainClass": "subsetsum_l",
+            "projectName": "dsa_f247bdba"
+        },
+        {
+            "type": "java",
             "name": "joshaphos_problom",
             "request": "launch",
             "mainClass": "joshaphos_problom",

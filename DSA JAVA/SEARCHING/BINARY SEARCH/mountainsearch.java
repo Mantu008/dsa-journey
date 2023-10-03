@@ -11,7 +11,6 @@ public class mountainsearch {
             } else{
                end=mid;
             }  
-
           
         }
 
