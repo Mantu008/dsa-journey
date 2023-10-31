@@ -4,6 +4,8 @@
 
 int main(){
 
+     printf("Name:-Mantu Kumar Morya \n Enr no:-9201703001 \n");
+
     int arr[100];
     int n,i,key,res,choice;
 

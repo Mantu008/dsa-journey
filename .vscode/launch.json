@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "deletemiddleelementfromstack",
+            "request": "launch",
+            "mainClass": "deletemiddleelementfromstack",
+            "projectName": "dsa_f247bdba"
+        },
+        {
+            "type": "java",
+            "name": "Biarytree",
+            "request": "launch",
+            "mainClass": "Biarytree",
+            "projectName": "dsa_f247bdba"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTree",
+            "request": "launch",
+            "mainClass": "BinaryTree",
+            "projectName": "dsa_f247bdba"
+        },
+        {
+            "type": "java",
             "name": "subsetsum_l",
             "request": "launch",
             "mainClass": "subsetsum_l",

@@ -4,6 +4,8 @@ void Bubblesort(int arr[],int n);
 
 int main(){
 
+    printf("Name:-Mantu Kumar Morya \n Enr no:-9201703001 \n");
+
 
     int arr[100];
     int n,i,key,res,choice;
@@ -19,6 +21,8 @@ int main(){
 
     Bubblesort(arr,n);
 
+    printf("sorted array is\n");
+
     for(int i=0;i<n;i++){
          printf("%d ",arr[i]);
     }
@@ -30,7 +34,7 @@ int main(){
 void Bubblesort(int arr[],int n){
 
     for(int i=1;i<n;i++){
-       for(int j=0;j<n-1;j++){
+       for(int j=0;j<n-i;j++){
                if(arr[j]>=arr[j+1]){
                 int temp=arr[j];
                 arr[j]=arr[j+1];

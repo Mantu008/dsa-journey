@@ -1,3 +1,6 @@
+import java.util.ArrayDeque;
+import java.util.Queue;
+
 public class Biarytree {
 
     public static class Node{
@@ -13,7 +16,10 @@ public class Biarytree {
     }
 public static void main(String[] args) {
 
-    
+      Queue<Integer> q=new ArrayDeque<>();
+      while(!q.isEmpty()){
+         
+      }
 }
 
 }

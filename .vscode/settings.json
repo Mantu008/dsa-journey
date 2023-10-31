@@ -1,6 +1,7 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
-        "string": "c"
+        "string": "c",
+        "STACKQUEUE.C": "cpp"
     }
 }
