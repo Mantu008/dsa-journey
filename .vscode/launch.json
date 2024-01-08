@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sortest_path_in_directed_asyaclic_graph",
+            "request": "launch",
+            "mainClass": "sortest_path_in_directed_asyaclic_graph",
+            "projectName": "dsa_f247bdba"
+        },
+        {
+            "type": "java",
+            "name": "ditect_cycle_in_graph",
+            "request": "launch",
+            "mainClass": "ditect_cycle_in_graph",
+            "projectName": "dsa_f247bdba"
+        },
+        {
+            "type": "java",
+            "name": "graph_implamantation",
+            "request": "launch",
+            "mainClass": "graph_implamantation",
+            "projectName": "dsa_f247bdba"
+        },
+        {
+            "type": "java",
+            "name": "find_position_in_infinite_sorted_array",
+            "request": "launch",
+            "mainClass": "find_position_in_infinite_sorted_array",
+            "projectName": "dsa_f247bdba"
+        },
+        {
+            "type": "java",
             "name": "deletemiddleelementfromstack",
             "request": "launch",
             "mainClass": "deletemiddleelementfromstack",

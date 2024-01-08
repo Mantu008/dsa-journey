@@ -115,7 +115,7 @@ public class BinaryTree {
   public static void traversal(Node node){
 
     
-        if(node==null){
+        if(node==null){ 
             return;
         }
 

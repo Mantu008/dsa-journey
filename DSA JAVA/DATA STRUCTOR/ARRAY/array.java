@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class array {
 
     public void getaray(int [] arr){
@@ -41,6 +43,7 @@ public class array {
      m.givedata();
 
      m.printarray(new int [] {3,5,98,56});
-        
+    
+
     }
 }

@@ -11,7 +11,6 @@ public class prime_gap6 {
   public static void main(String[] args) {
        for(int i=2;i<=100;i++){
         if ( ((i+6)<100)&&prime(i) && prime(i+6)) {
-
           System.out.println(i+" " +(i+6));
           
         }
