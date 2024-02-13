@@ -1,78 +1,85 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "sortest_path_in_directed_asyaclic_graph",
-            "request": "launch",
-            "mainClass": "sortest_path_in_directed_asyaclic_graph",
-            "projectName": "dsa_f247bdba"
-        },
-        {
-            "type": "java",
-            "name": "ditect_cycle_in_graph",
-            "request": "launch",
-            "mainClass": "ditect_cycle_in_graph",
-            "projectName": "dsa_f247bdba"
-        },
-        {
-            "type": "java",
-            "name": "graph_implamantation",
-            "request": "launch",
-            "mainClass": "graph_implamantation",
-            "projectName": "dsa_f247bdba"
-        },
-        {
-            "type": "java",
-            "name": "find_position_in_infinite_sorted_array",
-            "request": "launch",
-            "mainClass": "find_position_in_infinite_sorted_array",
-            "projectName": "dsa_f247bdba"
-        },
-        {
-            "type": "java",
-            "name": "deletemiddleelementfromstack",
-            "request": "launch",
-            "mainClass": "deletemiddleelementfromstack",
-            "projectName": "dsa_f247bdba"
-        },
-        {
-            "type": "java",
-            "name": "Biarytree",
-            "request": "launch",
-            "mainClass": "Biarytree",
-            "projectName": "dsa_f247bdba"
-        },
-        {
-            "type": "java",
-            "name": "BinaryTree",
-            "request": "launch",
-            "mainClass": "BinaryTree",
-            "projectName": "dsa_f247bdba"
-        },
-        {
-            "type": "java",
-            "name": "subsetsum_l",
-            "request": "launch",
-            "mainClass": "subsetsum_l",
-            "projectName": "dsa_f247bdba"
-        },
-        {
-            "type": "java",
-            "name": "joshaphos_problom",
-            "request": "launch",
-            "mainClass": "joshaphos_problom",
-            "projectName": "dsa_f247bdba"
-        },
-        {
-            "type": "java",
-            "name": "intercaction_of_linkedlist",
-            "request": "launch",
-            "mainClass": "intercaction_of_linkedlist",
-            "projectName": "dsa_f247bdba"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "negeative_integer_in_every_windows_size_k",
+      "request": "launch",
+      "mainClass": "negeative_integer_in_every_windows_size_k",
+      "projectName": "dsa_f247bdba"
+    },
+    {
+      "type": "java",
+      "name": "sortest_path_in_directed_asyaclic_graph",
+      "request": "launch",
+      "mainClass": "sortest_path_in_directed_asyaclic_graph",
+      "projectName": "dsa_f247bdba"
+    },
+    {
+      "type": "java",
+      "name": "ditect_cycle_in_graph",
+      "request": "launch",
+      "mainClass": "ditect_cycle_in_graph",
+      "projectName": "dsa_f247bdba"
+    },
+    {
+      "type": "java",
+      "name": "graph_implamantation",
+      "request": "launch",
+      "mainClass": "graph_implamantation",
+      "projectName": "dsa_f247bdba"
+    },
+    {
+      "type": "java",
+      "name": "find_position_in_infinite_sorted_array",
+      "request": "launch",
+      "mainClass": "find_position_in_infinite_sorted_array",
+      "projectName": "dsa_f247bdba"
+    },
+    {
+      "type": "java",
+      "name": "deletemiddleelementfromstack",
+      "request": "launch",
+      "mainClass": "deletemiddleelementfromstack",
+      "projectName": "dsa_f247bdba"
+    },
+    {
+      "type": "java",
+      "name": "Biarytree",
+      "request": "launch",
+      "mainClass": "Biarytree",
+      "projectName": "dsa_f247bdba"
+    },
+    {
+      "type": "java",
+      "name": "BinaryTree",
+      "request": "launch",
+      "mainClass": "BinaryTree",
+      "projectName": "dsa_f247bdba"
+    },
+    {
+      "type": "java",
+      "name": "subsetsum_l",
+      "request": "launch",
+      "mainClass": "subsetsum_l",
+      "projectName": "dsa_f247bdba"
+    },
+    {
+      "type": "java",
+      "name": "joshaphos_problom",
+      "request": "launch",
+      "mainClass": "joshaphos_problom",
+      "projectName": "dsa_f247bdba"
+    },
+    {
+      "type": "java",
+      "name": "intercaction_of_linkedlist",
+      "request": "launch",
+      "mainClass": "intercaction_of_linkedlist",
+      "projectName": "dsa_f247bdba"
+    }
+  ]
 }
